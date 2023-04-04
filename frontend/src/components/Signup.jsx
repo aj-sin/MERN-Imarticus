@@ -2,7 +2,7 @@ import { Col, Button, Row, Container, Card, Form } from "react-bootstrap";
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 export default function Signup() {
-    const host = "http://localhost:5000"
+    const host = "https://imarticus-backend-196j.onrender.com"
 
 
     const [credentials, setCredentials] = useState({ Name: "", email: "", password: "", cpassword: "" })

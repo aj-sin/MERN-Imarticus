@@ -12,7 +12,7 @@ const CourseSection = () => {
   const navigate = useNavigate();
   const [USER, setUSER] = useState([]);
   const [courses, setCourses] = useState([]);
-  const host = "http://localhost:5000";
+  const host = "https://imarticus-backend-196j.onrender.com";
   useEffect(() => {
     if (localStorage.getItem("token")) {
       // console.log("getting note")
